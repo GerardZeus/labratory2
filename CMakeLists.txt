@@ -11,7 +11,5 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 set(CMAKE_CXX_STANDARD_REQUIRED TRUE)
 
 
-add_definitions(-DSFML_STATIC)		 # дефайны
-
 add_executable("${PROJECT_NAME}" labaratory2.cpp)
 											
